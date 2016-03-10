@@ -18,16 +18,16 @@ Attention: This Repo assumes OS X. Users of other platforms please refer to [thi
 ## Step one: Downloading required software
 
 #### Text Editor
-You will want to have a text editor to work and write your code in. There is much debate about what editor is best and I believe it is purely preferential. With that said, here are the two most commonly used for development:
+You will want to have a text editor to work and write your code in. There is much debate about what editor is best and I believe it is purely preferential. With that said, here are the two most commonly used for development and their respective download links:
   * [Atom](https://www.atom.io) - a hackable text editor
 for the 21st Century
   * [Sublime](https://www.sublimetext.com) - a sophisticated text editor for code, markup and prose.
 
 #### Homebrew
 
-First we need to install [Homebrew](http://www.brew.sh) - The missing package manager for OS X
+Next we need to install [Homebrew](http://www.brew.sh) - The missing package manager for OS X
 
-Homebrew allows us to easily install software from the command line. If the command line is something that instils fear I will include links and directions to install directly from the the official sites. The terminal will be mandatory for a small portion of this tutorial and nothing in too complicated. I also highly encourage you to get familiar with your command line, here is some useful links that helped me get familiar with it:
+Homebrew allows us to easily install software from the command line. If the command line is something that instils fear I will include links and directions to install directly from the the official sites. The terminal however will be mandatory for a small portion of this tutorial and nothing too complicated. I also highly encourage you to get familiar with your command line, here is some useful links that helped me get familiar with it:
 * [The Command Line Crash Course ](http://cli.learncodethehardway.org/book/)
 * [The Command Line Cheat Sheet ](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
 * [The Command Line Help ](http://www.explainshell.com/)
@@ -50,14 +50,14 @@ If you are not using the command line, source code can be viewed and [downloaded
 ## Step two: Building our application
 
 #### Basic App Architecture
-I will introduce a very basic architecture. You can put all of your CSS styling and JavaScript scripts inside of your HTML but this is considered bad practice. The modularity and organization of code is important in modern day development and can be extremely complicated architectures. It is best that you begin practicing these techniques now as it will become beneficial in the future.
+I will introduce a very basic architecture. You can put all of your CSS styling and JavaScript scripts inside of your HTML file but this is considered bad practice. The modularity and organization of code is important in modern day development and can be extremely complicated architectures. It is best that you begin practicing these techniques now as it will become beneficial in the future.
 
-A common and basic application architecture consists of three files in one parent "application" folder, a HTML file `file_name.html`, a CSS file `file_name.css` and a JavaScript file `file_name.js`. For our example app we will call three files:
+A common and basic application architecture consists of three files in one parent "application" folder, a HTML file `file_name.html`, a CSS file `file_name.css` and a JavaScript file `file_name.js`. For our example app we will call these three files:
 * [index.html ](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
 * [style.css](http://www.explainshell.com/)
 * [app.js](https://github.com/veltman/clmystery/)
 
-Create a folder that you will put all of your development files and move into that folder. For myself I call mine "dev" but you are welcome to name it whatever fits for you.
+If you don't already have one, make a folder where you will put all of your development files and move into that folder. For myself I call mine "dev" but you are welcome to name it whatever fits for you.
 ```
 $ mkdir dev
 $ cd dev
@@ -159,3 +159,25 @@ $(document).ready(function() {
   })
 });
 ```
+## Step three: Running the server
+
+#### So simple...
+While inside the application folder, run this command in the terminal:
+```
+$ http-server
+```
+That's it! It really is that simple! Now head to you browser and type in this url:
+```
+localhost:8080
+```
+and your application should be running at that url.
+
+Now feel free to play with the JavaScript/CSS/HTML and have fun!
+
+If you have any questions regarding what is happening here or would like more information about building more complicated applications, or really if you just want a friend to help you get started coding contact me at any of the links below. Thanks for following along and have fun building in your new playground.
+
+
+[Email](mailto:davidjshibley@gmail.com)
+[Twitter](https://www.twitter.com/D_Shibs)
+[Facebook](https://www.facebook.com/davidjshibley)
+[LinkedIn](https://www.linkedin.com/in/davidshibley)
