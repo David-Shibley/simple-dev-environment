@@ -1,4 +1,4 @@
-# simple-static-server
+# simple-dev-environment
 A repo to help beginners create a development environment on their the own computer
 
 ## Welcome newcomers!
@@ -13,9 +13,17 @@ In this repo we will cover the following:
   * http-server
   * Basic app architecture
 
-Attention: This Repo assumes OS X. Users of other platforms please refer to [this link](https://www.google.com)
+Attention: This Repo assumes OS X. Users of other platforms please refer to [this link](http://bfy.tw/4h2W)
 
 ## Step one: Downloading required software
+
+Notice: ** This tutorial requires the use of the command line **
+
+If the command line is something that instils fear I have some resources to get familiar with it. The terminal however will be mandatory for some of this tutorial and will be require to make use of your development environment. I highly encourage you to get familiar with your command line. Here is some useful links that helped me get familiar with it:
+* [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
+* [The Command Line Cheat Sheet](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
+* [The Command Line Help](http://www.explainshell.com/)
+* [The Command Line Mystery Game](https://github.com/veltman/clmystery/)
 
 #### Text Editor
 You will want to have a text editor to work and write your code in. There is much debate about what editor is best and I believe it is purely preferential. With that said, here are the two most commonly used for development and their respective download links:
@@ -25,27 +33,32 @@ for the 21st Century
 
 #### Homebrew
 
-Next we need to install [Homebrew](http://www.brew.sh) - The missing package manager for OS X
+Next we need to install [Homebrew](http://www.brew.sh) - The missing package manager for OS X.
 
-Homebrew allows us to easily install software from the command line. If the command line is something that instils fear I will include links and directions to install directly from the the official sites. The terminal however will be mandatory for a small portion of this tutorial and nothing too complicated. I also highly encourage you to get familiar with your command line, here is some useful links that helped me get familiar with it:
-* [The Command Line Crash Course ](http://cli.learncodethehardway.org/book/)
-* [The Command Line Cheat Sheet ](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
-* [The Command Line Help ](http://www.explainshell.com/)
-* [The Command Line Mystery Game ](https://github.com/veltman/clmystery/)
+Homebrew allows us to easily install software from the command line.
+
+Enter this command into your terminal to download brew:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 
 #### Node.js
-For my command line users, open a new terminal window and enter the following command to install node on your computer:
+Node is a is a JavaScript runtime built on top of V8, Google Chrome's JavaScript engine.
+
+To download it, open a new terminal window and enter the following command to install node:
 ```
 $ brew install node
 ```
-If you are not using the command line, [you can download node here ](https://nodejs.org/en/)
+If you are not using brew, [you can download node here ](https://nodejs.org/en/)
 
 #### http-server
-In your terminal window, run this command:
+Now we will download http-server which is a [npm ](https://npmjs.com) package that very simply allows static applications to be served locally.
+
+To do this, in your terminal window, run this command:
 ```
 $ npm install http-server -g
 ```
-If you are not using the command line, source code can be viewed and [downloaded here ](https://github.com/indexzero/http-server/)
 
 ## Step two: Building our application
 
@@ -53,7 +66,7 @@ If you are not using the command line, source code can be viewed and [downloaded
 I will introduce a very basic architecture. You can put all of your CSS styling and JavaScript scripts inside of your HTML file but this is considered bad practice. The modularity and organization of code is important in modern day development and can be extremely complicated architectures. It is best that you begin practicing these techniques now as it will become beneficial in the future.
 
 A common and basic application architecture consists of three files in one parent "application" folder, a HTML file `file_name.html`, a CSS file `file_name.css` and a JavaScript file `file_name.js`. For our example app we will call these three files:
-* [index.html ](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
+* [index.html](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
 * [style.css](http://www.explainshell.com/)
 * [app.js](https://github.com/veltman/clmystery/)
 
@@ -62,12 +75,10 @@ If you don't already have one, make a folder where you will put all of your deve
 $ mkdir dev
 $ cd dev
 ```
-If your are not using the command line, we are doing the same thing as creating folders and files in finder.
-
 Next make another folder to contain your application.
 ```
-$ mkdir whatever_app_name_you_want
-$ cd whatever_app_name_you_want
+$ mkdir whatever_app_name_you_want_here
+$ cd whatever_app_name_you_want_here
 ```
 From this folder we will now add our three files.
 ```
@@ -176,7 +187,7 @@ Now feel free to play with the JavaScript/CSS/HTML and have fun!
 
 If you have any questions regarding what is happening here or would like more information about building more complicated applications, or really if you just want a friend to help you get started coding contact me at any of the links below. Thanks for following along and have fun building in your new playground.
 
-
+#### Contact me:
 [Email](mailto:davidjshibley@gmail.com)
 [Twitter](https://www.twitter.com/D_Shibs)
 [Facebook](https://www.facebook.com/davidjshibley)
