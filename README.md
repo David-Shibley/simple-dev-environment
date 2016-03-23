@@ -21,7 +21,7 @@ Notice: ** This tutorial requires the use of the command line **
 
 If the command line is something that instils fear I have some resources to get familiar with it. The terminal however will be mandatory for some of this tutorial and will be require to make use of your development environment. I highly encourage you to get familiar with your command line. Here is some useful links that helped me get familiar with it:
 * [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
-* [The Command Line Cheat Sheet](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
+* [The Command Line Cheat Sheet](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-))
 * [The Command Line Help](http://www.explainshell.com/)
 * [The Command Line Mystery Game](https://github.com/veltman/clmystery/)
 
@@ -66,7 +66,7 @@ $ npm install http-server -g
 I will introduce a very basic architecture. You can put all of your CSS styling and JavaScript scripts inside of your HTML file but this is considered bad practice. The modularity and organization of code is important in modern day development and can be extremely complicated architectures. It is best that you begin practicing these techniques now as it will become beneficial in the future.
 
 A common and basic application architecture consists of three files in one parent "application" folder, a HTML file `file_name.html`, a CSS file `file_name.css` and a JavaScript file `file_name.js`. For our example app we will call these three files:
-* [index.html](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-)
+* [index.html](https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-))
 * [style.css](http://www.explainshell.com/)
 * [app.js](https://github.com/veltman/clmystery/)
 
